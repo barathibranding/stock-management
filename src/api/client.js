@@ -83,7 +83,9 @@ import axios from "axios";
 const TOKEN_KEY = "sm_access_token";
 const REFRESH_KEY = "sm_refresh_token";
 
-const baseURL = process.env.REACT_APP_API_URL || "http://127.0.0.1:8000/api/";
+const baseURL =
+  process.env.REACT_APP_API_URL ||
+  "https://stock-management-backend-rhd8.onrender.com/api/";
 
 const api = axios.create({
   baseURL,
